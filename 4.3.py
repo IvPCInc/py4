@@ -8,3 +8,4 @@ def append_to_file(text, filename):
         for idx, line in enumerate(lines, start=1):
             if idx % 2 == 0:
                 print(line.strip())
+append_to_file("Пятая строка", "example.txt")
